@@ -1,12 +1,12 @@
 {
   "name": "aritgeo",
   "version": "1.0.0",
-  "description": "",
+  "description": "AritGeo is a function that takes an argument, an array and checks if the array passed is arithmetic, geometric, neither arithmetic nor geometric in progression.",
   "main": "src/main.js",
   "scripts": {
     "test": "mocha tests/test.js"
   },
-  "author": "",
+  "author": "Fadojutimi Temitayo",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.0",
