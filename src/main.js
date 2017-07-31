@@ -1,22 +1,5 @@
 'use strict'
 
-function checkArithmetic(inputArray){
-    let firstTerm = inputArray[0];
-    let secondTerm = inputArray[1];
-    let difference = secondTerm - firstTerm;
-    let result = false;
-    let arrayLength = inputArray.length;
-        for(let i=0; i < inputArray.length-1; i++){
-            if(!Number.isInteger(inputArray[i])){ return -1; }
-            if(difference == (inputArray[i+1]-inputArray[i])){
-                result= true;
-            }else{
-                return false;
-            }
-        }
-        return result;
-    }
-
 function checkGeometric(inputArray){
     let result=false;
     let firstTerm = inputArray[0];
