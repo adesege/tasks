@@ -3,8 +3,8 @@
 function aritGeo(inputArray=false){
     /* Check if inputArray is an Arithmetric Progression or Geometric progression*/
 
-    if(!inputArray){ return 0; }
-    if(inputArray.length==0){ return 0; }
+    if(!inputArray){ return 0; } //Argument must be passed
+    if(inputArray.length==0){ return 0; } //inputArray must not be empty
     if(!Array.isArray(inputArray)){ return 'undefined'; } // inputArray must be a typeof Array
 
     let result=false;
