@@ -11,7 +11,7 @@ CalcOOP is a simple javascript application that demonstrate the use of `Class In
 
 - `src/class.calculator.js` - Defines the `calculator` class.
 
-- `src/main.js` - Instantiates the base and main calculator classes and exports it.
+- `src/main.js` - Instantiates the abstract and main calculator classes and exports it.
 
 
 # Installation
