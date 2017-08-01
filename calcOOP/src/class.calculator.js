@@ -1,6 +1,6 @@
-let calculatorAbstract= require("./abstract.calculator");
+let calculatorBase= require("./base.calculator");
 
-class Calculator extends calculatorAbstract{
+class Calculator extends calculatorBase{
     constructor(){
         super();
     }

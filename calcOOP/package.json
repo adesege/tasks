@@ -1,0 +1,15 @@
+{
+  "name": "calcoop",
+  "version": "1.0.0",
+  "description": "CalcOOP is a simple javascript application that demonstrate the use of `Class Inheritance`, `Abstration`, `Polymorphism`, `Encapsulation` and other `OOP concepts`.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}

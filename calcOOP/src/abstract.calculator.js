@@ -5,57 +5,19 @@ class calculatorAbstract{
         }
     }
 
-    number(...number){
-        this.number=number;
-        return this;
-    }
+    number(...number){ }
 
-    sliceNumber(limit=2){
-        return this.number.slice(0,limit);
-    }
+    sliceNumber(limit=2){ }
 
-    add(){
-        return this.number.reduce((a, b) => Math.abs(a) + Math.abs(b));
-    }
+    add(){ }
 
-    multiply(){
-        let [firstNumber, secondNumber]=this.sliceNumber();
-        return firstNumber * secondNumber;
-    }
+    multiply(){ }
 
-    subtract(){
-        let [firstNumber, secondNumber]=this.sliceNumber();
-        return firstNumber - secondNumber;
-    }
+    subtract(){ }
 
-    divide(){
-        let [firstNumber, secondNumber]=this.sliceNumber();
-        return firstNumber / secondNumber;
-    }
+    divide(){ }
 
-    calc(calcType){
-        let calculation="";
-        let numbers = this.number;
-
-        switch (calcType) {
-            case 'add':
-                calculation = this.add();
-                break;
-            case 'multiply':
-                calculation = this.multiply();
-                break;
-            case 'divide':
-                calculation = this.divide();
-                break;
-            case 'subtract':
-                calculation = this.subtract();
-                break;
-            default:
-                calculation = this.add();
-                break;
-        }
-        return calculation;
-    }
+    solve(calcType){  }
 
 }
 
