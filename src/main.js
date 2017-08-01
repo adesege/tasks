@@ -12,7 +12,7 @@ class Calculator extends calculatorAbstract{
     }
 }
 
-let calc= new calculatorAbstract();
+let calc= new Calculator();
 calc.number(1,2,3,4,5);
 
 console.log(calc.calc('add'))
