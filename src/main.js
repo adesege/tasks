@@ -1,5 +1,18 @@
-inheritance = require('./inheritance/index.js');
+let calculatorAbstract= require("./abstract.calculator")
 
-let name = "";
+class Calculator extends calculatorAbstract{
+    constructor(calcType){
+        super();
+        this.calcType=calcType;
+    }
 
-console.log(inheritance.name = name);
+    calc(calcType){
+        let result = super.calc(calcType);
+        return result;
+    }
+}
+
+let calc= new calculatorAbstract();
+calc.number(1,2,3,4,5);
+
+console.log(calc.calc('add'))
